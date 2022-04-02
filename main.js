@@ -40,12 +40,3 @@ function gotPoses(results) {
 function modelLoaded() {
     console.log('poseNet is intialized');
 }
-
-
-function draw() {
-    background('#66b2ff');
-    textSize(difference);
-    fill('#FFFF00');
-    text('Satyansh', 50, 400);
-
-}
